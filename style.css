@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f5f9;
+}
+
+/* Header */
+.header {
+    background-color: #1f3a5f;
+    color: white;
+    padding: 15px;
+}
+
+/* Navigation */
+.nav ul {
+    list-style: none;
+    background-color: #2e5c8a;
+    margin: 0;
+    padding: 10px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Login */
+.login-box {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #bbb;
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    background-color: #2e5c8a;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #1f3a5f;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #bbb;
+    border-left: 5px solid #2e5c8a;
+}
+
+/* Table */
+.data-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.data-table th {
+    background-color: #2e5c8a;
+    color: white;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #bbb;
+    padding: 10px;
+    text-align: left;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #e6edf5;
+}
+
+/* Footer */
+.footer {
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
