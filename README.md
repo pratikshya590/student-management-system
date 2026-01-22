@@ -21,7 +21,7 @@ project-folder/
 - login.html
 - dashboard.html
 - list.html
-- css/style.css
-- images/
+- style.css
+
 
 
